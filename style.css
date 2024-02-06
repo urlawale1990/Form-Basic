@@ -1,10 +1,85 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bricolage Grotesque', sans-serif;
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
 }
 
-body{
-    background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(103, 7, 215));
+.form-container {
+    width: 30%;
+    height: auto;
+    background-color: #f8f8f8;
+    border-radius: 1rem;
+    border: 1px solid #d7d7d7;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;
+}
+
+.form-title {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.form-title h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.8rem;
+}
+
+.form-group {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.enter-fullname-alert {
+    color: red;
+}
+
+.enter-email-alert {
+    color: red;
+}
+
+.enter-phone-number {
+    color: red;
+}
+
+.button-container {
+    width: 100%;
+    height: auto;
+}
+
+.button-container button {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    cursor: pointer;
 }
